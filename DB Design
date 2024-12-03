@@ -1,0 +1,16 @@
+1. Category
+
+    id (Primary Key, Auto-Incremented)
+    name (String, Unique)
+    
+2. Product
+
+    id (Primary Key, Auto-Incremented)
+    name (String)
+    description (String)
+    price (Decimal)
+    category_id (Foreign Key, References Category.id)
+
+Relationship:
+
+A one-to-many relationship exists between Category and Product. One Category can have many Products, but a Product can belong to only one Category.

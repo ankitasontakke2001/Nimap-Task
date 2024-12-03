@@ -1,0 +1,3 @@
+Bulid the project.
+Run the application.
+Note:-Ensure that your database is up and running, and the connection details in application.properties are correct.
